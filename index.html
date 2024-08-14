@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PEDIDOS MOVIL</title>
-  <link rel="manifest" href="manifest.json">
+  <!-- Ajustar la ruta para el manifest -->
+  <link rel="manifest" href="/pwapedidos/manifest.json">
   <style>
     body, html {
       margin: 0;
@@ -22,8 +23,9 @@
 <body>
   <iframe src="https://script.google.com/macros/s/AKfycbzJ3QyyV8zd2HdPgmiufWmmN4WoBhijBkHGgspEPQpE8l7hNL7uRggRrumTmCLnQ6OM/exec" frameborder="0"></iframe>
   <script>
+    // Ajustar la ruta para el service worker
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js')
+      navigator.serviceWorker.register('/pwapedidos/service-worker.js')
       .then(registration => {
         console.log('Service Worker registrado con éxito:', registration);
       })
