@@ -1,0 +1,20 @@
+{
+  "short_name": "PEDIDOS",
+  "name": "PEDIDOS MOVIL",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/Gpk4qZx4/LOGO-MANA-SAKILLA-3.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/Gpk4qZx4/LOGO-MANA-SAKILLA-3.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/pwapedidos/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
